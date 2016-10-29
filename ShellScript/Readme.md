@@ -1,6 +1,6 @@
 # LIST OF SCRIPTS
 
-# First-Installation.sh
+# First-Steps.sh
 
 This script install the main apps to a base system
 
