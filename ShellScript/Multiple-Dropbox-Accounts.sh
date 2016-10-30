@@ -41,3 +41,11 @@ echo "startando nova instância do dropbox"
 
 echo "Criando atalho do diretório na pasta /Home/Dropbox-$NAME"
 ln -s ~/.dropbox-$NAME/Dropbox ~/Dropbox-$NAME
+
+
+# REMEMBER !!! 
+# To start the main Dropbox
+# $ /usr/bin/dropbox start -i
+# To start the others: 
+# For each instance installed
+# $ HOME="$HOME/.dropbox-THE_NAME_YOU_CHOSE" && /usr/bin/dropbox start -i
