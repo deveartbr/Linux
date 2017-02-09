@@ -15,9 +15,14 @@ This script was made by TotaBraz (Antonio Braz)
 Just to help someone to install more Dropbox accounts in the same User on Linux
 
 
-Alice:"Você pode me ajudar?"\n
-Gato: "Sim, pois não."\n
-Alice:"Para onde vai essa estrada?"\n
-Gato:"Para onde você quer ir?"\n
-Alice:"Eu não sei, estou perdida."\n
-Gato: "Para quem não sabe para onde vai, qualquer caminho serve."\n
+Alice:"Você pode me ajudar?"
+
+Gato: "Sim, pois não.
+
+Alice:"Para onde vai essa estrada?"
+
+Gato:"Para onde você quer ir?"
+
+Alice:"Eu não sei, estou perdida."
+
+Gato: "Para quem não sabe para onde vai, qualquer caminho serve."
