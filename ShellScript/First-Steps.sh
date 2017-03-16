@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# 1. Add the Spotify repository signing key to be able to verify downloaded packages
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+# 2. Add the Spotify repository
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+
 sudo apt-get purge openjdk* -y
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo add-apt-repository "deb http://archive.canonical.com/ precise partner" -y
@@ -23,6 +28,7 @@ sudo apt-get install steam-launcher -y
 sudo apt-get install  python-gpgme -y 
 sudo apt-get install hardinfo -y 
 sudo apt-get install docky -y 
+sudo apt-get install spotify-client
 
 sudo apt-get install gstreamer0.10-plugins-ugly libxine1-ffmpeg gxine mencoder libdvdread4 totem-mozilla icedax tagtool easytag id3tool lame nautilus-script-audio-convert libmad0 mpg321 libavcodec-extra -y 
 
