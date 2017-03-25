@@ -1,5 +1,5 @@
 TEST=0
-cd /etc/NetworkManager/system-connections/
+sudo cd /etc/NetworkManager/system-connections/
 echo "Saved wifi list:"
 echo ""
 ls -l -a
