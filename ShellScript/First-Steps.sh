@@ -12,8 +12,6 @@ sudo apt-get purge openjdk* -y
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo add-apt-repository "deb http://archive.canonical.com/ precise partner" -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
-# to uso GNome
-sudo add-apt-repository ppa:gnome3-team/gnome3
 
 sudo apt-get update
 sudo apt-get install oracle-java8-installer -y
@@ -37,6 +35,9 @@ sudo apt-get install spotify-client
 sudo apt-get install gnome-tweak-tool 
 sudo apt-get  install gcolor2 
 sudo apt-get install sublime-text
+sudo apt-get install wine
+sudo apt-get install playonlinux
+
 # installing libs
 sudo apt-get install libxss1 libappindicator1 libindicator7
 sudo apt-get install gstreamer0.10-plugins-ugly libxine1-ffmpeg gxine mencoder libdvdread4 totem-mozilla icedax tagtool easytag id3tool lame nautilus-script-audio-convert libmad0 mpg321 libavcodec-extra -y 
@@ -44,11 +45,7 @@ sudo apt-get install gstreamer0.10-plugins-ugly libxine1-ffmpeg gxine mencoder l
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome*.deb
 
-
-sudo apt update; sudo apt upgrade
-sudo apt install gdm gnome-shell gnome-shell-extensions gnome-tweak-tool gnome-contacts gnome-control-center
-#to recovery
-#sudo apt install mdm gnome-shell gnome-shell-extensions gnome-tweak-tool gnome-contacts gnome-control-center 
+ mdm gnome-shell gnome-shell-extensions gnome-tweak-tool gnome-contacts gnome-control-center 
 
 
 sudo apt-get install rar  -y 
