@@ -12,11 +12,14 @@ sudo apt-get purge openjdk* -y
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo add-apt-repository "deb http://archive.canonical.com/ precise partner" -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
+#themes
+sudo add-apt-repository ppa:noobslab/themes
+sudo add-apt-repository ppa:noobslab/icons
 
 sudo apt-get update
+
 sudo apt-get install oracle-java8-installer -y
 sudo apt-get install oracle-java8-set-default -y
-
 sudo apt-get install SMPlayer -y 
 sudo apt-get install Synaptic  -y 
 sudo apt-get install Winetricks  -y 
@@ -31,12 +34,15 @@ sudo apt-get install HardInfo  -y
 sudo apt-get install steam-launcher -y 
 sudo apt-get install python-gpgme -y 
 sudo apt-get install hardinfo -y 
-sudo apt-get install spotify-client
-sudo apt-get install gnome-tweak-tool 
-sudo apt-get  install gcolor2 
-sudo apt-get install sublime-text
-sudo apt-get install wine
-sudo apt-get install playonlinux
+sudo apt-get install spotify-client -y 
+sudo apt-get install gnome-tweak-tool  -y 
+sudo apt-get  install gcolor2  -y 
+sudo apt-get install sublime-text -y 
+sudo apt-get install wine -y 
+sudo apt-get install playonlinux -y 
+sudo apt-get install arc-icons -y 
+sudo apt-get install arc-theme -y 
+
 
 # installing libs
 sudo apt-get install libxss1 libappindicator1 libindicator7
